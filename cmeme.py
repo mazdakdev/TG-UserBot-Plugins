@@ -1,9 +1,8 @@
 import requests
 
-from userbot.plugins import catub
+from userbot.plugins import catub , edit_or_reply , reply_id
 
-from ..core.managers import edit_or_reply
-from ..helpers.utils import reply_id
+
 
 plugin_category = "fun"
 
