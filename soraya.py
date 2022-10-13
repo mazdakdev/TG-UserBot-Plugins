@@ -1,6 +1,6 @@
-from userbot import catub
+from userbot.plugins import catub,reply_id
 
-from ..helpers.utils import reply_id
+
 
 plugin_category = "fun"
 
