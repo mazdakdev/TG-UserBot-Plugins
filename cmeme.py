@@ -1,6 +1,6 @@
 import requests
 
-from userbot import catub
+from userbot.plugins import catub
 
 from ..core.managers import edit_or_reply
 from ..helpers.utils import reply_id
