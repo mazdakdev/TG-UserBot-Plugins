@@ -3,14 +3,14 @@ from datetime import datetime
 
 from telethon.tl import functions, types
 
-from userbot import catub
+from userbot.plugins import catub , edit_delete, edit_or_reply
 
-from ..Config import Config
-from ..core.logger import logging
-from ..core.managers import edit_delete, edit_or_reply
-from ..helpers.tools import media_type
-from ..helpers.utils import _format
-from . import BOTLOG, BOTLOG_CHATID
+from userbot.Config import Config
+from userbot.core.logger import logging
+from userbot.core.managers import 
+from userbot.helpers.tools import media_type
+from userbot.helpers.utils import _format
+from userbot.plugins import BOTLOG, BOTLOG_CHATID
 
 plugin_category = "utils"
 
