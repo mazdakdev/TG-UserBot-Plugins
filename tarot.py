@@ -1,9 +1,9 @@
 import requests
 from googletrans import Translator
 
-from userbot import catub
+from userbot import catub,edit_or_reply
 
-from ..core.managers import edit_or_reply
+
 
 plugin_category = "fun"
 
