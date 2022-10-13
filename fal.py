@@ -1,6 +1,6 @@
 import random
 
-from userbot import catub
+from userbot.plugins import catub
 
 plugin_category = "fun"
 
